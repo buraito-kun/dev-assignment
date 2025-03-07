@@ -1,0 +1,10 @@
+services:
+  line-bot-api:
+    container_name: line-bot-api
+    image: ghcr.io/buraito-kun/dev-assignment:latest
+    pull_policy: always
+    restart: always
+    environment:
+      LINE_ACCESS_TOKEN: ${LINE_ACCESS_TOKEN}
+    ports:
+      - "8000:3000"
