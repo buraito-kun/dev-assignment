@@ -1,6 +1,6 @@
 {
   "name": "nxz-dev-assignment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "When inputting any word to Line chatbot, such as Mango, Line chatbot should respond to show the meaning of partOfSpeech definition of noun(0) and verb(0) in the chat.",
   "main": "index.ts",
   "scripts": {
