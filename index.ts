@@ -28,7 +28,7 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 app.post("/webhook", async (req: Request, res: Response) => {
-  res.send("HTTP POST request sent to the webhook URL!")
+  res.sendStatus(200)
   if (req.body.events[0]?.type === "message") {
     // get definition from dictionary api
     const result = await fetch(
